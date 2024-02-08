@@ -4,20 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wok & Roll</title>
-    <link rel="icon" href="/Projeto-Wok-Roll/images/logo.jpeg.jpeg">
+    <link rel="icon" href="/Projeto-Wok-Roll/images/logo_icone.ico">
     <!-- CSS do projeto -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- DevIcon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+    <!-- Fonte do projeto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div id="social">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-whatsapp"></ion-icon>
+    </div>
+
     <div id="menu-topo">
-        <a href="pages/pedido.html" class="btn-projects"><span>Faça seu pedido</span></a>
-        <a href="pages/menu.html" class="btn-projects"><span>Menu</span></a>
-        <a href="pages/localidade.html" class="btn-projects"><span>Localização</span></a>
-        <a href="pages/contato.html" class="btn-projects"><span>Fale Conosco</span>
-        <a href="pages/login.html" id="btn-login"><span>Login</span>
+        <img id="logo-home" src="/Projeto-Wok-Roll/images/logo.png" href="index.html">
+        <a href="index.html" id="btn-home">Wok & Roll</a>
+        <a> Sabores que encantam, momentos que duram <a>
+        <a href="pages/pedido.html" class="btn-projects">Faça seu pedido</a>
+        <a href="pages/menu.html" class="btn-projects">Menu</a>
+        <a href="pages/localidade.html" class="btn-projects">Localização</a>
+        <a href="pages/contato.html" class="btn-projects">Fale Conosco</a>
+        <a href="pages/login.html" id="btn-login">Login</a>
+    </div>
+
+    <div id="imagem-principal">
+        <img id="fundo" src="/Projeto-Wok-Roll/images/yaki.jpg">
+    </div>
+
+    <div id="reserva">
+        <h6 id="mesinha">Reserva sua mesa</h6>
+        <input type="text" name="Nome" id="nome">
+        <input type="number" name="Telefone" id="telefone">
+        <input type="number" name="Quantidade de pessoas" id="pessoas">
+        <input type="datetime-local" name="Data da reserva" id="data">
+        <button type="submit">Reservar mesa</button>
+    </div>
+
+    <div id="rodape">
+        <p>Site apenas para fins educativos. Não possuímos nenhum direito de imagem. Logo criada por IA.</p>
     </div>
 
 <!--ION-ICONS -->
