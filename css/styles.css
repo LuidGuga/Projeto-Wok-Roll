@@ -2,25 +2,101 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: "Old Standard TT", serif;
 }
-
 #logo-home{
     width: 100px;
     height: 100px;
-    border-radius: 50%
+    border-radius: 50%;
+    margin: 5px 0px 0px 5px;
 }
-
-#social{
+#container-home-social{
     background-color: #F09F67;
     text-align: right;
 }
-
-#menu-topo{
-    background-color: #1C2236;
+#container-home-navbar{
+    background-color: white;
 }
-
 #rodape{
     background-color: #F09F67;
     text-align: center;
+}
+#navbar{
+    display: flex;
+}
+#navbar li{
+        list-style-type: none;
+        display: flex;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+}
+#container-home-logo{
+    width: 25%;
+}
+#container-home-botoes{
+    width: 75%;
+}
+#botoes{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.main-div-inicio-reserva{
+    background-image: url(/Projeto-Wok-Roll/images/yaki.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    min-height: 82vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#reserva{
+    background: rgba(240, 159, 103, 0.75);
+    height: 25vh;
+    width: 35%;
+}
+#mesa{
+    text-align: center;
+    font-size: 30px;
+    font-family: langar;
+    color: #1C2236;
+}
+#reserva input{
+    margin: 10px;
+    background-color: #FAF8DF;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+}
+#reserva button{
+    width: 100%;
+    max-width: 300px;
+    height: 4vh;
+    background-color: #1C2236;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+}
+.caixas{
+    display: flex;
+    width: 100%;
+}
+.caixa-esquerda, .caixa-direita{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.enviar-botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.font-inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
 }
