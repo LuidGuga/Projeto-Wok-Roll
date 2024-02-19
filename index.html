@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,46 +9,71 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- DevIcon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
-    <!-- Fonte do projeto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte do projeto -->
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Fonte 2 do projeto -->
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <!-- Fonte 3 do projeto -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="social">
-        <ion-icon name="logo-facebook"></ion-icon>
-        <ion-icon name="logo-instagram"></ion-icon>
-        <ion-icon name="logo-whatsapp"></ion-icon>
-    </div>
+    <header>
+        <section id="container-home-social">   
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-whatsapp"></ion-icon>
+        </section>
 
-    <div id="menu-topo">
-        <img id="logo-home" src="/Projeto-Wok-Roll/images/logo.png" href="index.html">
-        <a href="index.html" id="btn-home">Wok & Roll</a>
-        <a> Sabores que encantam, momentos que duram <a>
-        <a href="pages/pedido.html" class="btn-projects">Faça seu pedido</a>
-        <a href="pages/menu.html" class="btn-projects">Menu</a>
-        <a href="pages/localidade.html" class="btn-projects">Localização</a>
-        <a href="pages/contato.html" class="btn-projects">Fale Conosco</a>
-        <a href="pages/login.html" id="btn-login">Login</a>
-    </div>
+        <section id="container-home-navbar">
+        <nav id="navbar">
+                <div id="container-home-logo">
+                <a href="index.html"><img id="logo-home" src="/Projeto-Wok-Roll/images/logo.png"> <span id="nome-home">Wok & Roll</span></a>
+                <p id="slogan">Sabores que encantam, momentos que duram</p>
+                </div>
 
-    <div id="imagem-principal">
-        <img id="fundo" src="/Projeto-Wok-Roll/images/yaki.jpg">
-    </div>
+                <div id="container-home-botoes">
+                <ul id="botoes">
+                    <li class="btn-projects"><a href="pages/pedido.html">Faça seu pedido</a></li>
+                    <li class="btn-projects"><a href="pages/menu.html">Menu</a></li>
+                    <li class="btn-projects"><a href="pages/localidade.html">Localização</a></li>
+                    <li class="btn-projects"><a href="pages/contato.html">Fale Conosco</a></li>
+                    <li id="btn-login"><a href="pages/login.html">Login</a></li>
+                </ul>
+                </div>
+        </nav>
+        </section>
+    </header>
 
-    <div id="reserva">
-        <h6 id="mesinha">Reserva sua mesa</h6>
-        <input type="text" name="Nome" id="nome">
-        <input type="number" name="Telefone" id="telefone">
-        <input type="number" name="Quantidade de pessoas" id="pessoas">
-        <input type="datetime-local" name="Data da reserva" id="data">
-        <button type="submit">Reservar mesa</button>
-    </div>
+    <!--Passivel de mudança após CSS-->
+        <section id="main-image">
+            <div class="main-div-inicio-reserva">
+                <div id="reserva">
+                    <h6 id="mesa">Reserve sua mesa</h6>
+                    <div class="caixas">
+                        <div class="caixa-direita">
+                            <input type="text" name="Nome" id="nome" placeholder="Insira seu nome">
+                            <input type="number" name="Telefone" id="telefone" placeholder="Telefone para contato">
+                        </div>
+                        <div class="caixa-esquerda">
+                            <input type="number" name="Quantidade de pessoas" id="pessoas" placeholder="Número de convidados" max="6">
+                            <input type="datetime-local" name="Data da reserva" id="data">
+                        </div>
+                    </div>
+                        <div class="enviar-botao">
+                            <button class="font-inter" type="submit">Reservar mesa</button> 
+                        </div>
+                </div>
+            </div>
+        </section>
 
-    <div id="rodape">
-        <p>Site apenas para fins educativos. Não possuímos nenhum direito de imagem. Logo criada por IA.</p>
-    </div>
+    <footer>
+        <div id="rodape">
+            <p>Site apenas para fins educativos. Não possuímos nenhum direito de imagem. Logo criada por IA.</p>
+        </div>
+    </footer>
 
 <!--ION-ICONS -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
