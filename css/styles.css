@@ -22,6 +22,13 @@
 }
 #navbar{
     display: flex;
+    background-color: #1C2236;
+    color: azure;
+}
+#nome-home{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 40px;
 }
 #navbar li{
         list-style-type: none;
@@ -34,12 +41,18 @@
     width: 25%;
 }
 #container-home-botoes{
-    width: 75%;
+    width: 75%;   
 }
+#botoes a {   
+        text-decoration: none;
+        color: aliceblue;
+}
+
 #botoes{
     display: flex;
     justify-content: space-around;
     height: 100%;
+
 }
 .main-div-inicio-reserva{
     background-image: url("../images/yaki.jpg");
