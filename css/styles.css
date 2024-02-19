@@ -42,7 +42,7 @@
     height: 100%;
 }
 .main-div-inicio-reserva{
-    background-image: url(/Projeto-Wok-Roll/images/yaki.jpg);
+    background-image: url("../images/yaki.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
