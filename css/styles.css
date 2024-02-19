@@ -69,6 +69,8 @@
     background: rgba(240, 159, 103, 0.75);
     height: 25vh;
     width: 35%;
+    min-height: 225px;
+    min-width: 650px;
 }
 #mesa{
     text-align: center;
