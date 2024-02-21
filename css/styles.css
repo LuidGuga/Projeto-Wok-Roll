@@ -3,6 +3,13 @@
     padding: 0;
     margin: 0;
 }
+/*variaveis*/
+:root{
+    --main-bg-color:#F09F67 ;
+    --main-sec-color: #1C2236;
+    --inputs-color-reserva: #FAF8DF;
+    --inputs-color-login: white;
+}
 #logo-home{
     height: 150px;
     border-radius: 50%;
