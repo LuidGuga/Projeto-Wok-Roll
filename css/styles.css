@@ -16,6 +16,10 @@
     background-color: #F09F67;
     text-align: right;
 }
+#container-home-social a{
+    text-decoration: none;
+    color: black;
+}
 #rodape{
     background-color: #F09F67;
     text-align: center;
@@ -66,9 +70,11 @@
 #container-home-botoes{
     width: 70%;   
 }
-#botoes a {   
+#botoes a:not(#btn){   
     text-decoration: none;
-    color: aliceblue;
+    color: white;
+    font-family: "Montagu Slab", serif;
+    font-weight: 450;
 }
 #botoes{
     display: flex;
@@ -101,19 +107,21 @@
 }
 #reserva input{
     margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: #FAF8DF;
     border: none;
     border-radius: 5px;
-    height: 25px;
+    height: 35px;
 }
 #reserva button{
     width: 100%;
     max-width: 300px;
-    height: 4vh;
+    height: 5vh;
     background-color: #1C2236;
     color: white;
     font-size: 25px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
 }
 .caixas{
@@ -125,31 +133,39 @@
     flex-direction: column;
     width: 50%;
 }
+.caixa-esquerda input, .caixa-direita input{
+    padding-left: 15px;
+}
 .enviar-botao{
     display: flex;
     justify-content: center;
-    margin-top: 35px;
+    margin-top: 15px;
 }
-/* #btn-login{
-    justify-content: center;
-    align-items:center;
-    max-height: 50px;
-} */
-
-/* .bt-log{
-    height: auto;
-    max-height: 75px;
-    width: 100px;
+.login-area{
     display: flex;
+    background-color: wheat;
+    height: 35%;
+    width: 150px;
     justify-content: center;
-    align-items:center;
-    border: solid 1px #FCB471;
-    border-radius: 100px;
-    background-color: #F3AB6B;
-} */
+    align-items: center;
+    color: black;
+    border-radius: 45px;
+    align-self: center;
+}
 
-/* .font-inter{
-    font-family: "Inter", sans-serif !important;
-    font-optical-sizing: auto;
-    font-style: italic;
-} */
+#btn-login{
+    padding: 10px;
+    font-family: "Montagu Slab", serif;
+    font-weight: 450;
+    color: black !important;
+}
+#person{
+    font-size: 30px;
+}
+#btn{
+    text-decoration: none;
+    color: black;
+    font-family: "Montagu Slab", serif;
+    font-weight: 450;
+}
+
