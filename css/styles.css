@@ -14,19 +14,21 @@
     height: 150px;
     border-radius: 50%;
     margin: 5px 0px 0px 5px;
+    & img{
+        width: auto;
+        height: 100%;
+    }
 }
-#logo-home img{
-    width: auto;
-    height: 100%;
-}
+
 #container-home-social{
     background-color: #F09F67;
     text-align: right;
+    & a {
+        text-decoration: none;
+        color: black;
+    }
 }
-#container-home-social a{
-    text-decoration: none;
-    color: black;
-}
+
 #rodape{
     background-color: #F09F67;
     text-align: center;
@@ -36,18 +38,26 @@
     background-color: #1C2236;
     color: azure;
     justify-content: space-between;
+    & li{
+        list-style-type: none;
+        display: flex;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+    }
 }
-#nome-home h1{
-    text-decoration: none;
-    color: #FAF8DF;
-    font-size: 55px;
-    font-family: "Montagu Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-}
+
 #nome-home{
     margin-left: 10px;
+    & h1{
+        text-decoration: none;
+        color: #FAF8DF;
+        font-size: 55px;
+        font-family: "Montagu Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
 }
 .slogan{
     font-family: "Inter", sans-serif !important;
@@ -59,21 +69,16 @@
     color: #F09F67;
     font-weight: bold;
 }
-#navbar li{
-    list-style-type: none;
-    display: flex;
-    font-size: 20px;
-    text-align: center;
-    align-items: center;
-}
+
 .container-home-logo{
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
+    & a{
+        width: 150px;
+    }
 }
-.container-home-logo a{
-    width: 150px;
-}
+
 #container-home-botoes{
     width: 70%;   
 }
@@ -105,6 +110,25 @@
     width: 35%;
     min-height: 225px;
     min-width: 650px;
+    & input{
+        margin: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: #FAF8DF;
+        border: none;
+        border-radius: 5px;
+        height: 35px;
+    }
+    & button{
+        width: 100%;
+        max-width: 300px;
+        height: 5vh;
+        background-color: #1C2236;
+        color: white;
+        font-size: 25px;
+        border-radius: 20px;
+        border: none;
+    }
 }
 #mesa{
     text-align: center;
@@ -112,25 +136,7 @@
     font-family: langar;
     color: #1C2236;
 }
-#reserva input{
-    margin: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: #FAF8DF;
-    border: none;
-    border-radius: 5px;
-    height: 35px;
-}
-#reserva button{
-    width: 100%;
-    max-width: 300px;
-    height: 5vh;
-    background-color: #1C2236;
-    color: white;
-    font-size: 25px;
-    border-radius: 20px;
-    border: none;
-}
+
 .caixas{
     display: flex;
     width: 100%;
@@ -139,10 +145,11 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+    & input{
+        padding-left: 15px;
+    }
 }
-.caixa-esquerda input, .caixa-direita input{
-    padding-left: 15px;
-}
+
 .enviar-botao
 {
     display: flex;
