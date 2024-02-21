@@ -136,10 +136,19 @@
 .caixa-esquerda input, .caixa-direita input{
     padding-left: 15px;
 }
-.enviar-botao{
+.enviar-botao
+{
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    & button
+    {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: italic;
+        cursor: pointer;
+    }
 }
 .login-area{
     display: flex;
@@ -152,7 +161,6 @@
     border-radius: 45px;
     align-self: center;
 }
-
 #btn-login{
     padding: 10px;
     font-family: "Montagu Slab", serif;
@@ -168,4 +176,3 @@
     font-family: "Montagu Slab", serif;
     font-weight: 450;
 }
-
