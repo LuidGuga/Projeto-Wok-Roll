@@ -1,28 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wok & Roll</title>
     <link rel="icon" href="/Projeto-Wok-Roll/images/logo_icone.ico">
     <!-- CSS do projeto -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/Projeto-Wok-Roll/css/styles.css">
     <!-- DevIcon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
-    <!-- Fonte do projeto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte do projeto -->
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Fonte 2 do projeto -->
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <!-- Fonte 3 do projeto -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
+    <!-- Fonte 4 do projeto -->
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="menu-topo">
-        <a href="/Projeto-Wok-Roll/index.html" id="btn-home">Wok & Roll</a>
-        <a href="pedido.html" class="btn-projects">Faça seu pedido</a>
-        <a href="menu.html" class="btn-projects">Menu</a>
-        <a href="localidade.html" class="btn-projects">Localização</a>
-        <a href="contato.html" class="btn-projects">Fale Conosco</a>
-        <a href="login.html" class="btn-login">Login</a>
-    </div>
+    <header>
+        <section id="container-social"> 
+            <a href="#"><ion-icon name="logo-facebook" class="icons"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram" class="icons"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-whatsapp" class="icons"></ion-icon></a>
+        </section>
+
+        <section id="container-navbar">
+        <nav id="navbar">
+                <div class="container-logo">
+                    <a href="/Projeto-Wok-Roll/index.html"><img id="logo" src="/Projeto-Wok-Roll/images/logo.png"></a>
+                <div class="montagu-slab" id="nome"><h1>Wok & Roll</h1><p class="slogan" class="font-inter">Sabores que <span class="highlight">encantam</span>, momentos que <span class="highlight">duram.</span></p> </div>
+                </div>
+
+                <div id="container-botoes">
+                <ul id="botoes">
+                    <li class="btn-projects"><a href="/Projeto-Wok-Roll/pages/pedido.html">Faça seu pedido</a></li>
+                    <li class="btn-projects"><a href="/Projeto-Wok-Roll/pages/menu.html">Menu</a></li>
+                    <li class="btn-projects"><a href="/Projeto-Wok-Roll/pages/localidade.html">Localização</a></li>
+                    <li class="btn-projects"><a href="/Projeto-Wok-Roll/pages/contato.html">Fale Conosco</a></li>
+                        <div class="login-navbar">
+                            <ion-icon name="person-circle-outline" id="person"></ion-icon>
+                            <li id="btn-login"><a id="btn" href="/Projeto-Wok-Roll/pages/login.html">Login</a></li>
+                        </div>
+                </ul>
+                </div>
+        </nav>
+        </section>
+    </header>
+
+    <footer>
+        <div id="rodape">
+            <p>Site apenas para fins educativos. Não possuímos nenhum direito de imagem. Logo criada por IA.</p>
+        </div>
+    </footer>
+
+<!--ION-ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
