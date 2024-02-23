@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wok & Roll</title>
-    <link rel="icon" href="/Projeto-Wok-Roll/images/logo_icone.ico">
+    <link rel="icon" href="../images/logo_icone.ico">
     <!-- CSS do projeto -->
-    <link rel="stylesheet" href="/Projeto-Wok-Roll/css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <!-- DevIcon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,25 +32,41 @@
         <section id="container-navbar">
         <nav id="navbar">
                 <div class="container-logo">
-                    <a href="/Projeto-Wok-Roll/index.html"><img id="logo" src="/Projeto-Wok-Roll/images/logo.png"></a>
+                    <a href="../index.html"><img id="logo" src="../images/logo.png"></a>
                 <div class="montagu-slab" id="nome"><h1>Wok & Roll</h1><p class="slogan" class="font-inter">Sabores que <span class="highlight">encantam</span>, momentos que <span class="highlight">duram.</span></p> </div>
                 </div>
 
                 <div id="container-botoes">
                 <ul id="botoes">
-                    <li class="btn-projects"><a href="/Projeto-Wok-Roll/pages/pedido.html">Faça seu pedido</a></li>
-                    <li class="btn-projects"><a href="/Projeto-Wok-Roll/pages/menu.html">Menu</a></li>
-                    <li class="btn-projects"><a href="/Projeto-Wok-Roll/pages/localidade.html">Localização</a></li>
-                    <li class="btn-projects"><a href="/Projeto-Wok-Roll/pages/contato.html">Fale Conosco</a></li>
+                    <li class="btn-projects"><a href="./pedido.html">Faça seu pedido</a></li>
+                    <li class="btn-projects"><a href="./menu.html">Menu</a></li>
+                    <li class="btn-projects"><a href="./localidade.html">Localização</a></li>
+                    <li class="btn-projects"><a href="./contato.html">Fale Conosco</a></li>
                         <div class="login-navbar">
                             <ion-icon name="person-circle-outline" id="person"></ion-icon>
-                            <li id="btn-login"><a id="btn" href="/Projeto-Wok-Roll/pages/login.html">Login</a></li>
+                            <li id="btn-login"><a id="btn" href="./login.html">Login</a></li>
                         </div>
                 </ul>
                 </div>
         </nav>
         </section>
     </header>
+    <section>
+        <div class="contato-background">
+            <div class="caixa-contato">
+                <form class="contato">
+                    <h2>Entre em contato conosco</h2>
+                    <input type="text" name="contato-nome" class="contato-nome" placeholder="Nome">
+                    <input type="tel" name="contato-tel" class="contato-tel" placeholder="(11) 91234-5678" pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}">
+                    <input type="email" name="contato-email" class="contato-email" placeholder="Email">
+                    <textarea class="contato-caixa-texto" name="contato-caixa-texto" cols="30" rows="10" placeholder="Deixe aqui sua mensagem..."></textarea>
+                    <div>
+                        <button type="submit">Enviar Contato</button> 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div id="rodape">

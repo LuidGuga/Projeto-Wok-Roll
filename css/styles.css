@@ -13,7 +13,7 @@
 
 /* CSS geral para todas as páginas */
 #container-social{
-    background-color: #F09F67;
+    background-color: var(--main-bg-color);
     text-align: right;
     height: 30px;
     & a {
@@ -30,7 +30,7 @@
 
 #navbar{
     display: flex;
-    background-color: #1C2236;
+    background-color: var(--main-sec-color);
     color: azure;
     justify-content: space-between;
     & li{
@@ -133,7 +133,7 @@
 }
 
 #rodape{
-    background-color: #F09F67;
+    background-color: var(--main-bg-color);
     text-align: center;
 }
 
@@ -169,7 +169,7 @@
         width: 100%;
         max-width: 300px;
         height: 5vh;
-        background-color: #1C2236;
+        background-color: var(--main-sec-color);
         color: white;
         font-size: 25px;
         border-radius: 20px;
@@ -181,7 +181,7 @@
     text-align: center;
     font-size: 30px;
     font-family: langar;
-    color: #1C2236;
+    color: var(--main-sec-color);
 }
 
 .caixas{
@@ -212,4 +212,85 @@
     }
 }
 
+/* Fale Conosco */
+.contato-background{
+    background-color: var(--main-bg-color);
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+.caixa-contato{
+    background-color: var(--main-sec-color);
+    width: 30vw;
+    height: 70vh;
+    margin-top: 5vh;
+    border-radius: 50px;
+}
+.contato{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    & h2{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 40px;
 
+    }
+    & input{
+        height: 60px;
+        width: 50%;
+        border-radius: 45px;
+    }
+    & button{
+        width: 20vw;
+        max-width: 250px;
+        height: 5vh;
+        background-color: white;
+        color: var(--main-sec-color);
+        font-size: 25px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+    }
+}
+.contato-nome{
+    background-image:url('../images/profile.png');
+    background-size: 60px;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    font-size: larger;
+    background-position: 5px;
+}
+
+.contato-tel{
+    background-image:url('../images/phone-call.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    font-size: larger;
+    background-position: 5px;
+}
+
+.contato-email{
+    background-image:url('../images/mail.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    font-size: larger;
+    background-position: 5px;
+}
+
+.contato-caixa-texto{
+    resize: none;
+    font-size: 24px;
+    border-radius: 12px;
+    border: 4px solid var(--main-bg-color);
+    height: 35%;
+    width: 65%;
+}
