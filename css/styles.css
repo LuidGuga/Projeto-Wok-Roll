@@ -9,6 +9,7 @@
     --main-sec-color: #1C2236;
     --inputs-color-reserva: #FAF8DF;
     --inputs-color-login: white;
+    --color-teste: #DFC298;
 }
 
 /* CSS geral para todas as páginas */
@@ -63,7 +64,7 @@
 
 #nome{
     margin-left: 10px;
-    & h1{
+    & a{
         text-decoration: none;
         color: #FAF8DF;
         font-size: 55px;
@@ -214,7 +215,10 @@
 
 /* Fale Conosco */
 .contato-background{
-    background-color: var(--main-bg-color);
+    background-image: url(/Projeto-Wok-Roll/images/Fundo.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
     width: 100%;
     height: 85vh;
     display: flex;
@@ -283,7 +287,7 @@
     background-repeat: no-repeat;
     padding-left: 60px;
     font-size: larger;
-    background-position: 5px;
+    background-position: 10px;
 }
 
 .contato-caixa-texto{
