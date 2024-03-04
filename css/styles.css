@@ -314,6 +314,12 @@
     height: 60vh;
     margin-top: 5vh;
     border-radius: 50px;
+    & p{
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: none;
+    }
 }
 .login{
     display: flex;
