@@ -255,7 +255,7 @@
         background-color: white;
         color: var(--main-sec-color);
         font-size: 25px;
-        font-family:Arial, Helvetica, sans-serif ;
+        font-family:Arial, Helvetica, sans-serif;
         font-weight: 600;
         border-radius: 20px;
         border: none;
@@ -310,8 +310,8 @@
 }
 .caixa-login{
     background-color: var(--main-sec-color);
-    width: 40vw;
-    height: 60vh;
+    width: 25vw;
+    height: 70vh;
     margin-top: 5vh;
     border-radius: 50px;
 }
@@ -329,7 +329,7 @@
         font-size: 40px;
     }
     & input{
-        height: 80px;
+        height: 60px;
         width: 50%;
         border-radius: 45px;
         border: #fffef3;
@@ -356,7 +356,6 @@
     font-size: larger;
     background-position: 5px;
 }
-
 .senha{
     background-image:url('../images/mail.png');
     background-size: 50px;
@@ -365,3 +364,9 @@
     font-size: larger;
     background-position: 10px;
 }
+
+/* .cadastrar{
+    font-style: italic;
+    color: var(--main-sec-color);
+    list-style-type: none;
+} */
