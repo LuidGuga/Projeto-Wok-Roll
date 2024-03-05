@@ -148,7 +148,6 @@
     align-items: center;
     justify-content: center;
 }
-
 #reserva{
     background: rgba(240, 159, 103, 0.75);
     height: 25vh;
@@ -175,14 +174,12 @@
         border: none;
     }
 }
-
 #mesa{
     text-align: center;
     font-size: 30px;
     font-family: langar;
     color: var(--main-sec-color);
 }
-
 .caixas{
     display: flex;
     width: 100%;
@@ -195,7 +192,6 @@
         padding-left: 15px;
     }
 }
-
 .enviar-botao
 {
     display: flex;
@@ -270,7 +266,6 @@
     font-size: larger;
     background-position: 5px;
 }
-
 .contato-tel{
     background-image:url('../images/phone-call.png');
     background-size: 50px;
@@ -279,7 +274,6 @@
     font-size: larger;
     background-position: 5px;
 }
-
 .contato-email{
     background-image:url('../images/mail.png');
     background-size: 50px;
@@ -288,7 +282,6 @@
     font-size: larger;
     background-position: 10px;
 }
-
 .contato-caixa-texto{
     resize: none;
     font-size: 24px;
@@ -310,14 +303,16 @@
 }
 .caixa-login{
     background-color: var(--main-sec-color);
-    width: 25vw;
-    height: 70vh;
-    margin-top: 5vh;
+    width: 22vw;
+    height: 45vh;
+    margin-top: 16vh;
     border-radius: 50px;
     & p{
+        margin-top: 2vh;
         text-align: center;
         font-style: italic;
-        font-weight: bold;
+        font-size: 18px;
+        font-weight: 900;
         text-decoration: none;
     }
 }
@@ -325,7 +320,7 @@
     display: flex;
     height: 100%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     & h2{
         color: var(--main-bg-color);
@@ -370,9 +365,3 @@
     font-size: larger;
     background-position: 10px;
 }
-
-/* .cadastrar{
-    font-style: italic;
-    color: var(--main-sec-color);
-    list-style-type: none;
-} */
