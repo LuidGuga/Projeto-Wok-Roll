@@ -259,7 +259,7 @@
     }
 }
 .contato-nome{
-    background-image:url('../images/profile.png');
+    background-image:url('../images/person-circle-outline.svg');
     background-size: 60px;
     background-repeat: no-repeat;
     padding-left: 60px;
@@ -267,7 +267,7 @@
     background-position: 5px;
 }
 .contato-tel{
-    background-image:url('../images/phone-call.png');
+    background-image:url('../images/phone-portrait-outline.svg');
     background-size: 50px;
     background-repeat: no-repeat;
     padding-left: 60px;
@@ -275,7 +275,7 @@
     background-position: 5px;
 }
 .contato-email{
-    background-image:url('../images/mail.png');
+    background-image:url('../images/mail-outline.svg');
     background-size: 50px;
     background-repeat: no-repeat;
     padding-left: 60px;
@@ -350,7 +350,7 @@
     }
 }
 .login-email{
-    background-image:url('../images/profile.png');
+    background-image:url('../images/person-circle-outline.svg');
     background-size: 60px;
     background-repeat: no-repeat;
     padding-left: 60px;
@@ -358,10 +358,101 @@
     background-position: 5px;
 }
 .senha{
-    background-image:url('../images/mail.png');
+    background-image:url('../images/mail-outline.svg');
     background-size: 50px;
     background-repeat: no-repeat;
     padding-left: 60px;
+    font-size: larger;
+    background-position: 10px;
+}
+
+/* Página de cadastro */
+
+.background-cadastro{
+    background-image: url(/Projeto-Wok-Roll/images/Fundo.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+.caixa-cadastro{
+    background-color: var(--main-sec-color);
+    width: 30vw;
+    height: 55vh;
+    margin-top: 5vh;
+    border-radius: 50px;
+    & p{
+        margin-top: 2vh;
+        text-align: center;
+        font-style: italic;
+        font-size: 18px;
+        font-weight: 900;
+        text-decoration: none;
+    }
+}
+.cadastro{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    & h2{
+        color: var(--main-bg-color);
+        font-family: "Montagu Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+    }
+    & input{
+        height: 60px;
+        width: 50%;
+        border-radius: 45px;
+    }
+    & button{
+        width: 20vw;
+        max-width: 250px;
+        height: 5vh;
+        background-color: white;
+        color: var(--main-sec-color);
+        font-size: 25px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+    }
+}
+.nome-cadastro{
+    background-image:url('../images/person-circle-outline.svg');
+    background-size: 60px;
+    background-repeat: no-repeat;
+    padding-left:65px;
+    font-size: larger;
+    background-position: 5px;
+}
+.tel-cadastro{
+    background-image:url('../images/call-outline.svg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    padding-left: 65px;
+    font-size: larger;
+    background-position: 5px;
+}
+.email-cadastro{
+    background-image:url('../images/mail-outline.svg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    padding-left: 65px;
+    font-size: larger;
+    background-position: 10px;
+}
+.senha-cadastro
+{
+    background-image:url('../images/lock-closed-outline.svg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    padding-left: 65px;
     font-size: larger;
     background-position: 10px;
 }
